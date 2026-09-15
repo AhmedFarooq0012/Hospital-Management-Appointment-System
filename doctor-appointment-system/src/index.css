@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+    /* ========================================================
+     1. MAIN MEDICAL COLOR PALETTE
+     ======================================================== */
+
+    /* Professional Sky/Medical Blue: Primary actions, buttons, and branding */
+    --color-medical-primary: #0284c7;
+
+    /* Dark Slate: Sidebars, headers, and primary structural containers */
+    --color-medical-dark: #0f172a;
+
+    /* Accent Teal: Special badges, doctor highlights, and clinical accents */
+    --color-medical-teal: #0d9488;
+
+    /* Clean Background Light: Soft background color for pages and input fields */
+    --color-medical-light: #f8fafc;
+
+
+    /* ========================================================
+     2. INTERACTIVE STATES (SELECTED & UNSELECTED BUTTONS)
+     ======================================================== */
+
+    /* Selected Button Background: Used when a tab or navigation button is active/clicked */
+    --color-btn-selected-bg: #0369a1;
+    /* Deeper sky blue for active state */
+    --color-btn-selected-text: #ffffff;
+    /* High contrast text color for selected state */
+
+    /* Unselected Button Background: Used for default, inactive buttons and navigation items */
+    --color-btn-unselected-bg: #0284c7;
+    /* Standard medical primary blue */
+    --color-btn-unselected-text: #ffffff;
+    /* Clean white text for visibility */
+}
